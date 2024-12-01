@@ -84,7 +84,14 @@ def generate_report(crew, pdf_path):
         raise Exception(f"Error generating report: {str(e)}")
 
 def main():
-    st.title("LISA AI - Student Report Assistant")
+    # Display logo and title
+    col1, col2 = st.columns([1, 4])
+    with col1:
+        st.image("assets/lisa-ai-logo.png", width=100)
+    with col2:
+        st.title("LISA AI - Student Report Assistant")
+        st.markdown("*Powered by CrewAI and OpenAI*")
+    
     init_session_state()
     
     # Session management

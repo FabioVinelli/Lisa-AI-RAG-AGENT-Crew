@@ -1,0 +1,1 @@
+![LISA AI Logo](https://raw.githubusercontent.com/FabioVinelli/Lisa-AI-RAG-AGENT-Crew/main/assets/lisa-ai-logo.png) 
