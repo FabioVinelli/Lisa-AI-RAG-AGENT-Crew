@@ -1,0 +1,29 @@
+pdf_agent:
+  role: PDF Processor
+  description: Processes and extracts data from PDF documents
+  tools: 
+    - pdf_tool
+  goals:
+    - Extract text and structured data from PDF files
+    - Maintain document formatting information
+    - Handle various PDF formats and layouts
+
+docx_agent:
+  role: DOCX Processor
+  description: Processes and extracts data from DOCX documents
+  tools: 
+    - docx_tool
+  goals:
+    - Extract formatted text and metadata from DOCX files
+    - Preserve document structure and styling
+    - Handle tables and embedded content
+
+txt_agent:
+  role: TXT Processor
+  description: Processes plain text documents
+  tools: 
+    - txt_tool
+  goals:
+    - Process plain text files efficiently
+    - Extract relevant information and patterns
+    - Handle various text encodings

@@ -1,0 +1,659 @@
+{
+    "reason_for_referral": {
+        "page_1": {
+            "instructions": "This section outlines the reason for the student's referral to special education services. Information is gathered from the initial referral meeting, parent and teacher input, and the student's academic history.",
+            "methodology": {
+                "referral_source": {
+                    "description": "This captures whether the referral is for an initial evaluation or a triennial evaluation. The information is gathered from referral meeting notes or special education records.",
+                    "initial": {
+                        "source": "Parent or school team.",
+                        "notes": "For initial evaluations, state who referred the student (e.g., parents or school team). Include the date of the referral if available."
+                    },
+                    "triennial": {
+                        "source": "Special education records.",
+                        "notes": "For triennial evaluations, include the date when the student was first identified for special education services, as well as the primary and secondary eligibility classifications."
+                    }
+                }
+            }
+        },
+        "page_2": {
+            "instructions": "The second page continues to elaborate on the student's medical history, previous assessments, current services, and suspected areas of disability. This is crucial for framing the upcoming evaluation and clarifying the student's educational needs.",
+            "methodology": {
+                "medical_diagnosis": {
+                    "description": "Include any outside diagnoses, such as ADHD or anxiety, and note whether the student is on medication. If no medical diagnosis exists, document that as well.",
+                    "source": "Parent input, medical records."
+                },
+                "previous_assessments": {
+                    "description": "If the student was previously assessed for special education services, summarize the results and whether the student met eligibility criteria. This includes any relevant historical data on past assessments.",
+                    "source": "School records, previous evaluations."
+                },
+                "current_services": {
+                    "description": "Document any services the student is currently receiving, such as Section 504 accommodations or counseling. This includes school-based and outside services.",
+                    "source": "Student records, 504 Plan, counseling records."
+                },
+                "suspected_disability": {
+                    "description": "List the suspected areas of disability that will be addressed during the upcoming assessment, such as Specific Learning Disability (SLD) or Other Health Impairment (OHI). This can be selected based on the student's academic and behavioral history.",
+                    "source": "Referral meeting notes, parent interview, teacher feedback."
+                }
+            }
+        },
+        "data": {
+            "referral_source": {
+                "type": "Initial Evaluation",
+                "source": "Parent Referral",
+                "date": "September 2023",
+                "notes": "Blip is a 6th-grade student referred for an initial evaluation by his parents due to concerns about academic challenges and attention difficulties."
+            },
+            "reason_for_referral": {
+                "primary_concern": "Blip has ongoing academic challenges, particularly in reading comprehension and attention difficulties. Teachers have noted that Blip struggles to stay focused during class, and his academic performance has been inconsistent."
+            },
+            "parent_input": {
+                "status": "To be filled in after parent interview."
+            },
+            "teacher_input": {
+                "status": "To be filled in after teacher interview and classroom observation."
+            },
+            "academic_performance": {
+                "grades": "Blip's recent report card shows mostly B's and C's, with significant difficulty in reading comprehension and writing. His math performance is average."
+            },
+            "outside_diagnosis": {
+                "diagnosis": "ADHD (Combined Presentation)",
+                "medication": "Blip is currently on medication for ADHD."
+            },
+            "additional_information": {
+                "info": "Blip has been receiving accommodations under a Section 504 Plan, which includes extended time on assignments and tests."
+            },
+            "medical_diagnosis": {
+                "diagnosis": "Blip has an outside medical diagnosis of ADHD (Combined Presentation) and is currently taking medication to support focus and attention."
+            },
+            "previous_assessments": {
+                "summary": "Blip has not previously been assessed for special education services."
+            },
+            "current_services": {
+                "section_504": {
+                    "plan": "Blip is supported under a Section 504 Plan, which provides extended time on assignments and tests as well as preferential seating in the classroom."
+                },
+                "other_services": "No outside therapies or counseling have been reported at this time."
+            },
+            "suspected_disability": {
+                "areas": [
+                    "Specific Learning Disability (SLD)",
+                    "Other Health Impairment (related to ADHD)"
+                ]
+            }
+        }
+    },
+    "background_information": {
+        "page_3": {
+            "instructions": "This section provides detailed family, language, and free time activities information about the student. Data is primarily collected through parent questionnaires, student interviews, and school records.",
+            "methodology": {
+                "family_information": {
+                    "description": "Outlines the student's family structure, dynamics, and home environment. Extracted from the LVSD Health, Developmental, and Social Questionnaire completed by parents.",
+                    "source": "LVSD Health, Developmental, and Social Questionnaire, student interview if necessary.",
+                    "process": "Details on family composition, living situation, and parental employment. Supplement with student interview data if information is missing or incomplete."
+                },
+                "language_information": {
+                    "description": "Captures the student's language proficiency and use, including English learner status or reclassification as Fluent English Proficient (RFEP).",
+                    "source": "LVSD Health, Developmental, and Social Questionnaire, school records (CELDT/ELPAC), and student interviews.",
+                    "process": "Extracts data from the parent form, school records, and student interview on the student's language background and proficiency."
+                },
+                "after_school_activities": {
+                    "description": "Documents the student’s after-school activities and hobbies based on parent responses.",
+                    "source": "LVSD Health, Developmental, and Social Questionnaire.",
+                    "process": "Summarizes the parent's description of how the student spends free time."
+                }
+            },
+            "family_information": {
+                "structure": "Blip lives with his mother, father, and two younger siblings in [location].",
+                "parent_occupation": "Father works as a [father's job], mother as a [mother's job].",
+                "family_relationships": "Positive family relationships, frequently spending time with siblings and parents. No major family stressors reported."
+            },
+            "language_information": {
+                "language_proficiency": "Reclassified as Fluent English Proficient (RFEP) in 3rd grade.",
+                "languages_spoken": "Both English and Spanish spoken at home; Blip prefers English for schoolwork and with friends.",
+                "language_preference": "Strongest in English, exclusively used for academic activities."
+            },
+            "after_school_activities": {
+                "activities": "Blip enjoys playing basketball, practices most evenings at a local park, participates in weekend art classes, and plays video games with friends."
+            }
+        },
+        "page_4": {
+            "instructions": "This page focuses on the student's social, emotional, and behavioral history, documenting early social behaviors, emotional responses, and any behavioral concerns based on parent input.",
+            "methodology": {
+                "social_emotional_behavioral_history": {
+                    "description": "Covers social behavior in preschool, relationships with family members and peers, emotional state, and any behavioral issues.",
+                    "source": "LVSD Health, Developmental, and Social Questionnaire, student interview if necessary.",
+                    "process": "Transcribes parent responses or supplements with student interviews if needed."
+                },
+                "key_areas": {
+                    "preschool_social_behaviors": {
+                        "description": "Documents preschool peer interactions, noting solo or group play.",
+                        "source": "LVSD Health, Developmental, and Social Questionnaire."
+                    },
+                    "family_peer_relationships": {
+                        "description": "Captures relationships with family and peers, noting strengths or challenges.",
+                        "source": "LVSD Health, Developmental, and Social Questionnaire."
+                    },
+                    "emotional_responses": {
+                        "description": "Summarizes typical emotional responses, coping with difficult emotions.",
+                        "source": "LVSD Health, Developmental, and Social Questionnaire."
+                    },
+                    "behavioral_issues": {
+                        "description": "Documents any behavioral concerns, including hyperactivity, inattentiveness, or anxiety.",
+                        "source": "LVSD Health, Developmental, and Social Questionnaire, classroom observations if available."
+                    }
+                }
+            },
+            "social_emotional_behavioral_history": {
+                "preschool_social_behaviors": "Engaged well with peers in preschool, frequently participated in group play.",
+                "family_peer_relationships": "Positive family relationships; gets along well with siblings and adults.",
+                "emotional_responses": "Generally happy, but can become frustrated with challenging tasks. Difficulty focusing for extended periods; sensitive to loud noises.",
+                "behavioral_issues": "Occasionally bites nails when anxious; reacts strongly to loud noises."
+            }
+        },
+        "page_5": {
+            "instructions": "This section covers parent-reported social, emotional, and behavioral responses, motor abilities, and sensitivities.",
+            "methodology": {
+                "parent_reported_behaviors": {
+                    "description": "Documents behaviors reported by parents, including physical coordination and emotional responses to frustration.",
+                    "source": "LVSD Health, Developmental, and Social Questionnaire.",
+                    "process": {
+                        "checkboxes_and_open_questions": {
+                            "description": "Checkbox and open-ended questions filled based on parent input (e.g., nail-biting, comforted by hugs).",
+                            "method": "Directly fill from parent form or adjust pre-filled text based on feedback."
+                        },
+                        "motor_abilities": {
+                            "description": "Parents provide observations on student's coordination.",
+                            "source": "LVSD Health, Developmental, and Social Questionnaire.",
+                            "process": "Transcribes parent observations on coordination, noting any delays or strengths."
+                        },
+                        "emotional_reactions": {
+                            "description": "Records emotional responses to frustration or difficult tasks, comfort reactions.",
+                            "source": "LVSD Health, Developmental, and Social Questionnaire.",
+                            "process": "Documents behaviors like anger, sadness, or difficulty with emotions."
+                        },
+                        "behavioral_sensitivities": {
+                            "description": "Documents sensitivities to stimuli, e.g., noise or touch aversion.",
+                            "source": "LVSD Health, Developmental, and Social Questionnaire.",
+                            "process": "Includes examples of sensitivity to stimuli reported by parents."
+                        },
+                        "nervous_habits": {
+                            "description": "Reports any nervous habits like thumb-sucking or nail-biting.",
+                            "source": "LVSD Health, Developmental, and Social Questionnaire.",
+                            "process": "Documents nervous habits observed by parents."
+                        }
+                    }
+                }
+            },
+            "social_emotional_behavioral_history": {
+                "motor_abilities": "Parents report good motor abilities; enjoys running and jumping. No coordination issues.",
+                "emotional_reactions": "Generally happy, becomes frustrated with difficult tasks. Often comforted by hugs; sensitive to loud noises.",
+                "behavioral_sensitivities": "Occasionally reacts strongly to loud noises; prefers structured routines.",
+                "nervous_habits": "Bites nails when anxious, especially in new situations; shy with transitions."
+            }
+        },
+        "page_6": {
+            "instructions": "This section covers the student's Health and Developmental History and Language Factors. Data from the School Nurse’s Report, parent questionnaires, and school records for English Learners (EL). Documents developmental milestones, medical history, and language proficiency.",
+            "methodology": {
+                "health_and_developmental_history": {
+                    "description": "Summarizes health and developmental milestones based on nurse’s report and parent responses, including significant medical history.",
+                    "source": "School Nurse’s Report and Parent Questionnaire.",
+                    "process": {
+                        "nurse_report": {
+                            "description": "Psychologist transcribes relevant data from nurse’s report.",
+                            "method": "Summary of developmental milestones and recent screenings."
+                        },
+                        "parent_responses": {
+                            "description": "Summarizes health concerns or medical history from parent questionnaire.",
+                            "method": "Lists significant medical issues or 'No significant medical issues' if none noted."
+                        }
+                    }
+                },
+                "language_factors": {
+                    "description": "Summarizes language proficiency based on school records and parent questionnaire.",
+                    "source": "Parent Questionnaire, CELDT/ELPAC records, and school records.",
+                    "process": {
+                        "english_learner_status": {
+                            "description": "Documents proficiency levels for English Learners (EL) and any language development services received.",
+                            "method": "Summarizes EL status, language proficiency, and accommodations."
+                        },
+                        "reclassified_fluent_english_proficient": {
+                            "description": "Documents reclassification to Fluent English Proficient (RFEP) if applicable.",
+                            "method": "States reclassification year and any ongoing support."
+                        },
+                        "english_only_student": {
+                            "description": "For English-only speakers, provides a statement on language proficiency without additional support needs.",
+                            "method": "Indicates primary language as English with no additional support required."
+                        }
+                    }
+                }
+            },
+            "health_and_developmental_history": {
+                "medical_history": "Born full-term, met developmental milestones on time. Recent screenings normal, no significant medical concerns reported.",
+                "language_factors": {
+                    "english_learner_status": {
+                        "status": "English Learner",
+                        "services_provided": "Currently receiving English Language Development (ELD) services; intermediate level on recent ELPAC scores. Continued support planned to develop academic English skills."
+                    },
+                    "reclassified_fluent_english_proficient": {
+                        "status": "N/A"
+                    },
+                    "english_only": {
+                        "status": "English exclusively spoken at home and school, no language development concerns."
+                    }
+                }
+            }
+        },
+        "page_7": {
+            "instructions": "This section covers Educational History, including enrollment history, grade-level performance, and academic interventions, sourced from cumulative records, report cards, standardized tests, and teacher reports.",
+            "methodology": {
+                "enrollment_history": {
+                    "description": "Summarizes enrollment history: schools attended, grades completed, and years enrolled.",
+                    "source": "School records, cumulative files, and enrollment records.",
+                    "process": {
+                        "school_records": {
+                            "description": "Extracts school names, grade levels, and years from cumulative records.",
+                            "method": "Lists each school and grade level or provides summary if within the same district."
+                        }
+                    }
+                },
+                "grade_level_performance": {
+                    "description": "Reviews academic performance by grade level using report cards and standardized tests.",
+                    "source": "Report cards and standardized test results.",
+                    "process": {
+                        "report_cards": {
+                            "description": "Summarizes performance in core subjects like reading, writing, and math.",
+                            "method": "Highlights strengths, weaknesses, and areas of difficulty by grade."
+                        }
+                    }
+                },
+                "educational_interventions": {
+                    "description": "Documents formal or informal academic interventions, including RTI and SST meetings.",
+                    "source": "Intervention records, teacher reports, and previous assessments.",
+                    "process": {
+                        "intervention_records": {
+                            "description": "Reviews records of formal interventions for type, focus, and outcomes.",
+                            "method": "Summarizes intervention type, focus, and outcomes (e.g., progress or difficulties)."
+                        }
+                    }
+                }
+            },
+            "enrollment_history": {
+                "summary": "Attended [Elementary School Name] from K to 5th grade, currently in 7th grade at [Middle School Name]. No significant enrollment changes."
+            },
+            "grade_level_performance": {
+                "summary": "Performed within average range throughout elementary school, mainly Bs and Cs. Improved in reading comprehension by 5th grade; consistent difficulties in math, especially fractions and multiplication in 4th grade."
+            },
+            "educational_interventions": {
+                "summary": "Received small-group reading support starting in 2nd grade as part of RTI, improving phonemic awareness and reading fluency. Continued math support in 5th grade through after-school tutoring for foundational math skills."
+            }
+        },
+        "page_8": {
+            "instructions": "Focuses on grade-level performance, COVID-19 impact, and specific academic interventions. Detailed documentation from report cards, teacher feedback, and progress monitoring.",
+            "methodology": {
+                "grade_level_performance": {
+                    "description": "Summarizes grade performance, noting strengths, challenges, and trends.",
+                    "source": "Report cards, teacher comments, and progress reports.",
+                    "process": {
+                        "report_cards": {
+                            "description": "Extracts performance in key subjects, focusing on trends and challenges.",
+                            "method": "Summarizes strengths and weaknesses, adding teacher comments for context."
+                        }
+                    }
+                },
+                "covid_19_impact": {
+                    "description": "Documents impact of COVID-19 on academic progress.",
+                    "source": "Parent interviews, teacher feedback, and school records.",
+                    "process": {
+                        "teacher_feedback": {
+                            "description": "Assesses pandemic’s effect on academic progress from teacher and parent feedback.",
+                            "method": "Summarizes disruptions and regression during remote learning."
+                        }
+                    }
+                },
+                "progress_monitoring_and_interventions": {
+                    "description": "Details specific academic interventions and their outcomes by grade.",
+                    "source": "SST records, IEP documentation, and teacher reports.",
+                    "process": {
+                        "intervention_records": {
+                            "description": "Summarizes interventions provided, noting progress monitoring data.",
+                            "method": "Documents intervention type, grade level, and effectiveness."
+                        }
+                    }
+                }
+            },
+            "grade_level_performance": {
+                "summary": "In 2nd grade, Blip showed significant difficulties in reading comprehension and phonemic awareness. Despite interventions, ended year with a 'C' in reading."
+            },
+            "covid_19_impact": {
+                "summary": "Academic progress impacted during COVID-19; difficulty focusing in online lessons. Regression in reading fluency observed, leading to additional small-group interventions."
+            },
+            "progress_monitoring_and_interventions": {
+                "summary": "Placed in RTI program in 4th grade for reading comprehension. Progress monitoring showed steady improvements in decoding, although comprehension remained a challenge. Additional tutoring sessions improved fluency."
+            }
+        },
+        "page_9": {
+            "instructions": "This section focuses on the student's middle school performance, transcript reviews, and details on interventions provided during grades 6 to 8. The psychologist should document academic performance, GPA, and intervention strategies to capture ongoing educational needs and progress monitoring.",
+            "methodology": {
+                "middle_school_performance": {
+                    "description": "Summarize the student's academic performance for grades 6 to 8, based on the middle school transcript and teacher reports. Highlight any strengths, weaknesses, and behavioral observations.",
+                    "source": "Middle school transcript and teacher reports.",
+                    "process": {
+                        "transcript": {
+                            "description": "Extract grades, GPA, and recognitions (e.g., honors). Document strengths and challenges, including repeated classes if any.",
+                            "method": "Summarize key points like GPA, performance trends (e.g., difficulties in math), and teacher comments about behavior, effort, or motivation."
+                        }
+                    }
+                },
+                "transcript_review": {
+                    "description": "Detailed summary of transcript, capturing performance across all subjects. Note GPA trends or challenges in particular subjects.",
+                    "source": "Middle school transcript.",
+                    "process": {
+                        "grade_analysis": {
+                            "description": "Review grades for each semester, noting subjects with strengths or struggles.",
+                            "method": "Summarize key GPA patterns and any repeated or failed courses."
+                        }
+                    }
+                },
+                "progress_monitoring_and_interventions": {
+                    "description": "Document ongoing academic interventions, including math or reading support provided in middle school. Track response to interventions.",
+                    "source": "Teacher reports, progress reports, and intervention records (RTI, SST).",
+                    "process": {
+                        "intervention_tracking": {
+                            "description": "Document provided interventions (e.g., math support, small-group instruction) and student’s response. Note continued challenges or improvements.",
+                            "method": "Summarize type, duration, and effectiveness of each intervention."
+                        }
+                    }
+                }
+            },
+            "middle_school_performance": {
+                "summary": "In 6th and 7th grades, Blip consistently struggled in math, earning Cs and Ds, but performed well in English and History, earning Bs. Teacher comments highlight difficulty focusing in math but good engagement in English."
+            },
+            "transcript_review": {
+                "summary": "Blip’s middle school transcript shows a GPA of 2.8. Grades reflect struggles in math and science with Cs and Ds, while Blip consistently achieved Bs in English and History."
+            },
+            "progress_monitoring_and_interventions": {
+                "summary": "Blip received math intervention support starting in 6th grade, focusing on foundational math skills. Progress monitoring shows gradual improvement, but challenges with multiplication and division persist. Additional support recommended for 8th grade."
+            }
+        },
+        "page_10": {
+            "instructions": "Documents current class schedule, non-final grades, missing assignments, and overall academic and behavioral progress. Provides a snapshot of the student’s current academic situation.",
+            "methodology": {
+                "current_class_schedule": {
+                    "description": "Lists student’s full class schedule, including subjects, teachers, and periods or time blocks.",
+                    "source": "School's SIS.",
+                    "process": {
+                        "schedule_retrieval": {
+                            "description": "Access SIS to retrieve schedule. Note any special education or support classes.",
+                            "method": "List all subjects, periods, and support classes."
+                        }
+                    }
+                },
+                "non_final_grades_and_missing_assignments": {
+                    "description": "Provide non-final grades and note missing assignments indicating academic or behavioral challenges.",
+                    "source": "School's SIS and grading system.",
+                    "process": {
+                        "grades_and_assignments": {
+                            "description": "Review progress reports for grades and missing assignments in each subject.",
+                            "method": "Summarize non-final grades and highlight missing assignments affecting performance."
+                        }
+                    }
+                },
+                "behavioral_and_academic_progress": {
+                    "description": "Summarize behavioral and academic performance, based on teacher feedback and progress reports.",
+                    "source": "Teacher feedback, progress reports, classroom observations.",
+                    "process": {
+                        "performance_feedback": {
+                            "description": "Gather feedback on academic and behavioral progress.",
+                            "method": "Summarize engagement, task completion, and behavioral concerns affecting performance."
+                        }
+                    }
+                }
+            },
+            "current_class_schedule": {
+                "summary": "Blip’s current schedule includes English, Math, History, Science, Physical Education, and an Art elective. Receives additional support in a study skills class for organization."
+            },
+            "non_final_grades_and_missing_assignments": {
+                "summary": "Current non-final grades: English B, History C, Math D, Science C. Several missing assignments in Math and Science impacting grades."
+            },
+            "behavioral_and_academic_progress": {
+                "summary": "Blip shows good engagement in English and History but struggles with focus in Math and Science. Receives support in study skills, but additional support recommended for attention issues."
+            }
+        },
+        "page_11": {
+            "instructions": "Documents additional academic and behavioral interventions, and provides an optional analysis of course performance. Identifies discrepancies between homework and test performance for issues like test anxiety.",
+            "methodology": {
+                "additional_academic_and_behavioral_interventions": {
+                    "description": "Documents additional interventions provided to support the student, including student’s response.",
+                    "source": "Intervention records, teacher feedback, progress monitoring.",
+                    "process": {
+                        "intervention_review": {
+                            "description": "Reviews interventions provided, duration, and student’s response.",
+                            "method": "Summarize provided interventions, duration, and student’s response."
+                        }
+                    }
+                },
+                "optional_analysis_of_course_performance": {
+                    "description": "Provides detailed analysis of performance in classwork, homework, and tests, especially when discrepancies exist.",
+                    "source": "Grades, test scores, teacher feedback.",
+                    "process": {
+                        "performance_analysis": {
+                            "description": "Identify discrepancies in grades, homework completion, and test scores. Analyze for issues like anxiety or executive functioning deficits.",
+                            "method": "If discrepancies exist, analyze causes and recommend accommodations."
+                        }
+                    }
+                }
+            },
+            "additional_academic_and_behavioral_interventions": {
+                "summary": "Blip has received small-group math support and strategies for test anxiety. Teachers report slight improvement in organizational skills, but test performance challenges persist. Time management and test-taking support recommended."
+            },
+            "optional_analysis_of_course_performance": {
+                "summary": "Blip performs well on homework but struggles on exams in math and science, possibly due to test anxiety. Further assessment and accommodations like extended test time are recommended."
+            }
+        },
+        "page_12": {
+            "instructions": "Documents Student Support Team (SST) meetings and any Section 504 Plans. Summarizes interventions and their effectiveness in supporting academic or behavioral needs.",
+            "methodology": {
+                "sst_meetings": {
+                    "description": "Summarizes SST meetings discussing academic or behavioral concerns, strategies, and outcomes.",
+                    "source": "SST meeting notes, teacher reports, intervention records.",
+                    "process": {
+                        "meeting_review": {
+                            "description": "Review SST notes to document interventions and outcomes.",
+                            "method": "Summarize meeting date, concerns raised, strategies, and follow-up."
+                        }
+                    }
+                },
+                "section_504_plan": {
+                    "description": "Summarizes accommodations under the 504 Plan and their effectiveness.",
+                    "source": "504 Plan documentation, teacher feedback, and progress reports.",
+                    "process": {
+                        "plan_review": {
+                            "description": "Review 504 Plan documentation to summarize accommodations.",
+                            "method": "Summarize accommodations and effectiveness."
+                        }
+                    }
+                }
+            },
+            "sst_meetings": {
+                "summary": "First SST meeting in Oct 2022 due to math and science struggles. Behavior chart and small-group math support recommended, with progress in task completion but continued focus concerns."
+            },
+            "section_504_plan": {
+                "summary": "Blip’s 504 Plan includes extended test time, preferential seating, and reduced homework. Test scores show slight improvement, though organizational challenges remain."
+            }
+        },
+        "page_13": {
+            "instructions": "Documents attendance and discipline history, focusing on absenteeism, tardiness, and behavioral issues impacting performance.",
+            "methodology": {
+                "attendance_history": {
+                    "description": "Summarizes attendance record, noting absenteeism or tardiness patterns.",
+                    "source": "Attendance data from SIS and progress reports.",
+                    "process": {
+                        "review": {
+                            "description": "Review records for absences and tardies, providing context on impact.",
+                            "method": "Summarize total absences and tardies with impact on performance."
+                        }
+                    }
+                },
+                "discipline_history": {
+                    "description": "Summarizes disciplinary actions and context for behavior.",
+                    "source": "Discipline records, teacher reports, administrative notes.",
+                    "process": {
+                        "review": {
+                            "description": "Review disciplinary records for behavior types and interventions.",
+                            "method": "Summarize types of infractions and interventions."
+                        }
+                    }
+                }
+            },
+            "attendance_history": {
+                "summary": "15 absences this year, mostly in spring. Tardy 10 times. Absences affected math and science progress."
+            },
+            "discipline_history": {
+                "summary": "Two incidents of disruptive behavior resulting in office referrals. Behavior contract in place to support compliance."
+            }
+        },
+        "page_14": {
+            "instructions": "Summarizes special education history, including IEPs, evaluations, and any changes in eligibility or services over time.",
+            "methodology": {
+                "individualized_education_programs": {
+                    "description": "Summarizes IEPs, goals, services, and accommodations over time.",
+                    "source": "IEP documents from special education records.",
+                    "process": {
+                        "review": {
+                            "description": "Review IEPs for goals and services provided, tracking progress and changes.",
+                            "method": "Summarize goals, services, and effectiveness over time."
+                        }
+                    }
+                },
+                "special_education_evaluations": {
+                    "description": "Summarizes formal evaluations like academic assessments and cognitive testing.",
+                    "source": "Evaluation reports.",
+                    "process": {
+                        "review": {
+                            "description": "Analyze evaluation results informing IEP.",
+                            "method": "Summarize key findings and support plan impact."
+                        }
+                    }
+                },
+                "changes_in_eligibility_or_services": {
+                    "description": "Documents eligibility changes, such as reclassification or dismissal.",
+                    "source": "IEP records.",
+                    "process": {
+                        "review": {
+                            "description": "Track changes in eligibility.",
+                            "method": "Summarize eligibility or service changes with rationale."
+                        }
+                    }
+                }
+            },
+            "iep_summary": {
+                "summary": "Blip’s IEP in 3rd grade addressed reading fluency and comprehension with goals for reading speed and strategies. Progress made in reading fluency, with challenges in comprehension."
+            },
+            "special_education_evaluation": {
+                "summary": "Initial evaluation in 2nd grade showed below-grade reading/writing. Reevaluation in 5th grade showed improved reading fluency, with comprehension challenges."
+            },
+            "eligibility_changes": {
+                "summary": "Eligible under SLD since 3rd grade. Recent accommodations added for attention and focus."
+            }
+        },
+        "page_15": {
+            "standardized_assessments": {
+                "title": "Standardized Assessments",
+                "assessment_details": [
+                    {
+                        "assessment_name": "CAASPP",
+                        "subject": "English Language Arts",
+                        "grade_level": "5th Grade",
+                        "performance_level": "Did not meet standard",
+                        "scores": {
+                            "total_score": 2400,
+                            "subscores": {
+                                "reading_comprehension": 700,
+                                "written_expression": 600
+                            }
+                        },
+                        "year": "2020",
+                        "comments": "Blip struggled with reading comprehension and writing."
+                    },
+                    {
+                        "assessment_name": "CAASPP",
+                        "subject": "Math",
+                        "grade_level": "6th Grade",
+                        "performance_level": "Approaching standard",
+                        "scores": {
+                            "total_score": 2500,
+                            "subscores": {
+                                "problem_solving": 800,
+                                "concepts_procedures": 700
+                            }
+                        },
+                        "year": "2021",
+                        "comments": "Improvement in problem-solving, ongoing struggles with multi-step problems."
+                    }
+                ]
+            },
+            "previous_testing": {
+                "title": "Previous Testing",
+                "cognitive_assessment": {
+                    "assessment_name": "WISC-V",
+                    "date": "2019-09-15",
+                    "summary": "4th-grade cognitive testing revealed average verbal skills, with lower scores in working memory.",
+                    "scores": {
+                        "verbal_comprehension_index": 100,
+                        "fluid_reasoning_index": 105,
+                        "working_memory_index": 85,
+                        "processing_speed_index": 80
+                    },
+                    "comments": "Working memory and processing flagged as concerns."
+                },
+                "academic_assessment": {
+                    "assessment_name": "Woodcock-Johnson IV",
+                    "date": "2018-11-10",
+                    "summary": "3rd-grade testing indicated deficits in reading comprehension and writing.",
+                    "scores": {
+                        "reading_comprehension": 75,
+                        "written_expression": 80,
+                        "math_computation": 95
+                    },
+                    "comments": "Prompted reading intervention."
+                }
+            },
+            "covid_impact": {
+                "title": "COVID-19 Impact",
+                "comments": "Pandemic affected reading comprehension. Remote learning challenges noted in focus and assignment completion."
+            }
+        },
+        "page_16": {
+            "instructions": "Summarizes interventions in general education prior to special education services, including outcomes related to academic or behavioral needs.",
+            "methodology": {
+                "interventions_provided_in_general_education": {
+                    "description": "Documents supports provided in general education before special education referral.",
+                    "source": "Teacher reports, SST notes, RTI/MTSS records.",
+                    "process": {
+                        "review": {
+                            "description": "Summarize general education interventions, including type and response.",
+                            "method": "Provide intervention details, noting effectiveness."
+                        }
+                    }
+                },
+                "additional_interventions": {
+                    "description": "Documents additional academic, behavioral, or social-emotional interventions beyond general education.",
+                    "source": "Teacher reports, parent feedback.",
+                    "process": {
+                        "review": {
+                            "description": "Summarize any further interventions provided.",
+                            "method": "Describe additional support, effectiveness, and continuation."
+                        }
+                    }
+                }
+            },
+            "general_education_interventions": {
+                "summary": "Received small-group reading support in RTI. Progress made in fluency, comprehension challenges persisted."
+            },
+            "additional_interventions": {
+                "summary": "Participated in social-emotional learning group. Improvements in handling frustration; math tutoring provided foundational skills but complex problem-solving remains challenging."
+            }
+        }
+    }
+}

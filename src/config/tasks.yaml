@@ -1,0 +1,26 @@
+process_pdf_task:
+  description: Extract and process data from PDF files
+  agent: pdf_agent
+  priority: 1
+  dependencies: []
+  retry_policy:
+    max_attempts: 3
+    delay: 5
+
+process_docx_task:
+  description: Extract and process data from DOCX files
+  agent: docx_agent
+  priority: 2
+  dependencies: [process_pdf_task]
+  retry_policy:
+    max_attempts: 3
+    delay: 5
+
+process_txt_task:
+  description: Process plain text files
+  agent: txt_agent
+  priority: 3
+  dependencies: []
+  retry_policy:
+    max_attempts: 2
+    delay: 3
