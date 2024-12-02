@@ -1,9 +1,12 @@
 <div align="center">
+   
+# LISA AI ✨
 
-# LISA AI 🤖
-### Special Education Multidisciplinary Psychoeducational Report Assistant
+## Special Education Multidisciplinary Psychoeducational Report Assistant
 
-![LISA AI Logo](assets/lisa-ai-logo.png)
+
+![_68878b17-938f-43a6-b880-f863b1ca6148](https://github.com/user-attachments/assets/569ead23-733e-4e9a-87dd-903e76feaae8)
+
 
 [![Python Version](https://img.shields.io/badge/python-3.10-blue.svg)](https://python.org)
 [![CrewAI](https://img.shields.io/badge/CrewAI-0.1.0-orange.svg)](https://github.com/joaomdmoura/crewAI)
